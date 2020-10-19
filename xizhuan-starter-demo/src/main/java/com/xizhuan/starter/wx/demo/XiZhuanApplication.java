@@ -31,7 +31,7 @@ public class XiZhuanApplication extends SpringBootServletInitializer {
     private void test() throws IOException {
         TextMessage message = new TextMessage("微信API");
         SendResult send = WxChatbotClient.send("https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=21c5110d-4a20-4144-a401-f4c5373ebaa4", message);
-
+        System.out.println("拿提交");
     }
 
 }
