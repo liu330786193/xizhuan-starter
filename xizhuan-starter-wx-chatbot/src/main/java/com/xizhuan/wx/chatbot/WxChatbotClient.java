@@ -40,7 +40,6 @@ public class WxChatbotClient {
             sendResult.setErrorMsg(obj.getString("errmsg"));
             sendResult.setIsSuccess(errcode.equals(0));
         }
-
         return sendResult;
     }
 
