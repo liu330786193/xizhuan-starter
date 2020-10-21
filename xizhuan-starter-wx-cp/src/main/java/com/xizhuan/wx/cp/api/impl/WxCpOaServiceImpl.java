@@ -4,26 +4,19 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.json.GsonParser;
 import com.xizhuan.wx.cp.api.WxCpOaService;
 import com.xizhuan.wx.cp.api.WxCpService;
 import com.xizhuan.wx.cp.bean.oa.*;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 import java.util.Date;
 import java.util.List;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.APPLY_EVENT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.GET_APPROVAL_DETAIL;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.GET_APPROVAL_INFO;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.GET_CHECKIN_DATA;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.GET_CHECKIN_OPTION;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.GET_DIAL_RECORD;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Oa.GET_TEMPLATE_DETAIL;
 
 /**
  * 企业微信 OA 接口实现

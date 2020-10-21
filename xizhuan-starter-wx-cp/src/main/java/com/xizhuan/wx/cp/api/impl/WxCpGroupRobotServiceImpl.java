@@ -1,6 +1,5 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.api.WxConsts;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.cp.api.WxCpGroupRobotService;
@@ -9,6 +8,7 @@ import com.xizhuan.wx.cp.bean.WxCpGroupRobotMessage;
 import com.xizhuan.wx.cp.bean.article.NewArticle;
 import com.xizhuan.wx.cp.config.WxCpConfigStorage;
 import com.xizhuan.wx.cp.constant.WxCpApiPathConsts;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 

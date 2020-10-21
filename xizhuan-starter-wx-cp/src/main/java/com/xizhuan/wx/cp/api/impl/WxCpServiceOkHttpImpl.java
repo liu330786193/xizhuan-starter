@@ -1,13 +1,13 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import lombok.extern.slf4j.Slf4j;
-import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.bean.WxAccessToken;
+import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.HttpType;
 import com.xizhuan.wx.common.util.http.okhttp.OkHttpProxyInfo;
 import com.xizhuan.wx.cp.config.WxCpConfigStorage;
+import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 
 import java.io.IOException;

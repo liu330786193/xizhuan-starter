@@ -8,21 +8,13 @@
  */
 package com.xizhuan.wx.cp.util.json;
 
+import com.google.gson.*;
+import com.xizhuan.wx.common.util.json.GsonHelper;
+import com.xizhuan.wx.cp.bean.WxCpChat;
+
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSerializer;
-
-import com.xizhuan.wx.common.util.json.GsonHelper;
-import com.xizhuan.wx.cp.bean.WxCpChat;
 
 /**
  * 群聊适配器

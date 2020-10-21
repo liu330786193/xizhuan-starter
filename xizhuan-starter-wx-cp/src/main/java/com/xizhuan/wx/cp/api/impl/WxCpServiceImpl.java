@@ -1,8 +1,8 @@
 package com.xizhuan.wx.cp.api.impl;
 
 import com.google.gson.JsonObject;
-import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.bean.WxAccessToken;
+import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.json.GsonParser;

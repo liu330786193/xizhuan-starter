@@ -1,15 +1,15 @@
 package com.xizhuan.wx.cp.bean;
 
-import java.io.Serializable;
-import java.util.Map;
-
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
 import com.xizhuan.wx.common.util.XmlUtils;
 import com.xizhuan.wx.common.util.xml.XStreamCDataConverter;
 import com.xizhuan.wx.cp.util.xml.XStreamTransformer;
+import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
+
+import java.io.Serializable;
+import java.util.Map;
 
 /**
  * 回调推送的message

@@ -1,9 +1,9 @@
 package com.xizhuan.wx.common.util.http;
 
 
-import java.nio.charset.StandardCharsets;
-
 import org.apache.commons.lang3.StringUtils;
+
+import java.nio.charset.StandardCharsets;
 
 public class URIUtil {
 

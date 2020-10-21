@@ -1,16 +1,15 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.json.WxGsonBuilder;
 import com.xizhuan.wx.cp.api.WxCpService;
 import com.xizhuan.wx.cp.api.WxCpTaskCardService;
+import lombok.RequiredArgsConstructor;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.TaskCard.*;
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.TaskCard.UPDATE_TASK_CARD;
 
 /**

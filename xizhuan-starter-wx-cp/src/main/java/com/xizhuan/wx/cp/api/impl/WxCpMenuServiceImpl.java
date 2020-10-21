@@ -1,16 +1,13 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.bean.menu.WxMenu;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.cp.api.WxCpMenuService;
 import com.xizhuan.wx.cp.api.WxCpService;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.RequiredArgsConstructor;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Menu.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Menu.MENU_CREATE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Menu.MENU_DELETE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Menu.MENU_GET;
 
 /**
  * <pre>

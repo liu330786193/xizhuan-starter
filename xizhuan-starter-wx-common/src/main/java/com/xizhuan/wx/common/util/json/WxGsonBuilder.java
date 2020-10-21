@@ -5,8 +5,8 @@ import com.google.gson.GsonBuilder;
 import com.xizhuan.wx.common.bean.WxAccessToken;
 import com.xizhuan.wx.common.bean.WxNetCheckResult;
 import com.xizhuan.wx.common.bean.menu.WxMenu;
-import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.bean.result.WxMediaUploadResult;
+import com.xizhuan.wx.common.error.WxError;
 
 /**
  * .

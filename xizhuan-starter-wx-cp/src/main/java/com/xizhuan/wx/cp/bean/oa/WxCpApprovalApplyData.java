@@ -1,7 +1,7 @@
 package com.xizhuan.wx.cp.bean.oa;
 
-import lombok.Data;
 import com.xizhuan.wx.cp.bean.oa.applydata.ApplyDataContent;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.List;

@@ -1,11 +1,11 @@
 package com.xizhuan.wx.cp.bean;
 
-import java.io.Serializable;
-
+import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+
+import java.io.Serializable;
 
 /**
  * Created by Daniel Qian.

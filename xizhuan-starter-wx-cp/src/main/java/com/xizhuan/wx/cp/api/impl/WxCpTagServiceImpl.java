@@ -1,8 +1,9 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import com.google.gson.*;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonPrimitive;
 import com.google.gson.reflect.TypeToken;
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.json.GsonParser;
 import com.xizhuan.wx.cp.api.WxCpService;
@@ -12,17 +13,11 @@ import com.xizhuan.wx.cp.bean.WxCpTagAddOrRemoveUsersResult;
 import com.xizhuan.wx.cp.bean.WxCpTagGetResult;
 import com.xizhuan.wx.cp.bean.WxCpUser;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.TAG_ADD_TAG_USERS;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.TAG_CREATE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.TAG_DELETE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.TAG_DEL_TAG_USERS;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.TAG_GET;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.TAG_LIST;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tag.TAG_UPDATE;
 
 /**
  * <pre>

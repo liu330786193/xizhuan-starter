@@ -1,15 +1,15 @@
 package com.xizhuan.wx.cp.bean.external;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import com.xizhuan.wx.cp.bean.external.msg.Image;
 import com.xizhuan.wx.cp.bean.external.msg.Link;
 import com.xizhuan.wx.cp.bean.external.msg.MiniProgram;
 import com.xizhuan.wx.cp.bean.external.msg.Text;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.List;

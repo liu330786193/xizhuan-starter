@@ -1,14 +1,14 @@
 package com.xizhuan.wx.common.util.http;
 
-import java.io.File;
-import java.io.IOException;
-
-import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.bean.result.WxMediaUploadResult;
+import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.apache.ApacheMediaUploadRequestExecutor;
 import com.xizhuan.wx.common.util.http.jodd.JoddHttpMediaUploadRequestExecutor;
 import com.xizhuan.wx.common.util.http.okhttp.OkHttpMediaUploadRequestExecutor;
+
+import java.io.File;
+import java.io.IOException;
 
 /**
  * 上传媒体文件请求执行器.

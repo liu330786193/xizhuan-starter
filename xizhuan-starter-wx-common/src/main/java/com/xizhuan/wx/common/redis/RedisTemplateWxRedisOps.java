@@ -1,8 +1,8 @@
 package com.xizhuan.wx.common.redis;
 
+import com.xizhuan.wx.common.util.locks.RedisTemplateSimpleDistributedLock;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
-import com.xizhuan.wx.common.util.locks.RedisTemplateSimpleDistributedLock;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.concurrent.TimeUnit;

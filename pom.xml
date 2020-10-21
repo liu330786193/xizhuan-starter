@@ -9,14 +9,20 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>xizhuan-starter-prevent-duplicate-form</module>
         <module>xizhuan-starter-wx-chatbot</module>
         <module>xizhuan-starter-wx-common</module>
         <module>xizhuan-starter-wx-cp</module>
-        <module>xizhuan-starter-demo</module>
+        <module>xizhuan-starter-web</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>2.9.1</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -137,6 +143,21 @@
                 <artifactId>spring-data-redis</artifactId>
                 <version>2.1.2.RELEASE</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>2.1.0.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>2.1.0.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>2.1.0.RELEASE</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -187,25 +208,25 @@
                 <version>3.1.1</version>
             </plugin>
 
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <!--如果想在没有web.xml文件的情况下构建WAR，请设置为false。-->
+                    &lt;!&ndash;如果想在没有web.xml文件的情况下构建WAR，请设置为false。&ndash;&gt;
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
-        <resources>
+        <!--<resources>
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <!-- 此处设置打成jar包后保留的静态资源文件 .txt .xml等-->
+                    &lt;!&ndash; 此处设置打成jar包后保留的静态资源文件 .txt .xml等&ndash;&gt;
                     <include>**/*.md</include>
                 </includes>
             </resource>
-        </resources>
+        </resources>-->
     </build>
 
 </project>

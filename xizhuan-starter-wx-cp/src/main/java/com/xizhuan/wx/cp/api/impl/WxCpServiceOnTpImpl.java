@@ -1,9 +1,9 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.bean.WxAccessToken;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.cp.api.WxCpTpService;
+import lombok.RequiredArgsConstructor;
 
 /**
  * <pre>

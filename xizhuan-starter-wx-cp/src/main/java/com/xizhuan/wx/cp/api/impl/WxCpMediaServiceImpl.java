@@ -1,6 +1,5 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.bean.result.WxMediaUploadResult;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.fs.FileUtils;
@@ -8,6 +7,7 @@ import com.xizhuan.wx.common.util.http.BaseMediaDownloadRequestExecutor;
 import com.xizhuan.wx.common.util.http.MediaUploadRequestExecutor;
 import com.xizhuan.wx.cp.api.WxCpMediaService;
 import com.xizhuan.wx.cp.api.WxCpService;
+import lombok.RequiredArgsConstructor;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,10 +15,6 @@ import java.io.InputStream;
 import java.util.UUID;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Media.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Media.IMG_UPLOAD;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Media.JSSDK_MEDIA_GET;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Media.MEDIA_GET;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Media.MEDIA_UPLOAD;
 
 /**
  * <pre>

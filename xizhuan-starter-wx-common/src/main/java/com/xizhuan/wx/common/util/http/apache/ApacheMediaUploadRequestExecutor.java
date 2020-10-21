@@ -1,7 +1,7 @@
 package com.xizhuan.wx.common.util.http.apache;
 
-import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.bean.result.WxMediaUploadResult;
+import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.MediaUploadRequestExecutor;

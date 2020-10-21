@@ -1,9 +1,9 @@
 package com.xizhuan.wx.common.error;
 
-import lombok.Builder;
-import lombok.Data;
 import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.util.json.WxGsonBuilder;
+import lombok.Builder;
+import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;

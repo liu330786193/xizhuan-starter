@@ -1,14 +1,14 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import com.xizhuan.wx.cp.api.WxCpChatService;
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.json.GsonParser;
 import com.xizhuan.wx.common.util.json.WxGsonBuilder;
+import com.xizhuan.wx.cp.api.WxCpChatService;
 import com.xizhuan.wx.cp.api.WxCpService;
 import com.xizhuan.wx.cp.bean.WxCpAppChatMessage;
 import com.xizhuan.wx.cp.bean.WxCpChat;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.HashMap;
@@ -16,10 +16,6 @@ import java.util.List;
 import java.util.Map;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Chat.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Chat.APPCHAT_CREATE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Chat.APPCHAT_GET_CHATID;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Chat.APPCHAT_SEND;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Chat.APPCHAT_UPDATE;
 
 /**
  * 群聊服务实现.

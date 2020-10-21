@@ -2,8 +2,8 @@ package com.xizhuan.wx.cp.util.crypto;
 
 import com.google.common.base.CharMatcher;
 import com.google.common.io.BaseEncoding;
-import com.xizhuan.wx.cp.config.WxCpTpConfigStorage;
 import com.xizhuan.wx.common.util.crypto.WxCryptUtil;
+import com.xizhuan.wx.cp.config.WxCpTpConfigStorage;
 
 /**
  * @author someone

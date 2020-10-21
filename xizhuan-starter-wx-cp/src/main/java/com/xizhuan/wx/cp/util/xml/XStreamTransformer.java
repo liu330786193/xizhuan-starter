@@ -1,20 +1,12 @@
 package com.xizhuan.wx.cp.util.xml;
 
+import com.thoughtworks.xstream.XStream;
+import com.xizhuan.wx.common.util.xml.XStreamInitializer;
+import com.xizhuan.wx.cp.bean.*;
+
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
-
-import com.thoughtworks.xstream.XStream;
-import com.xizhuan.wx.common.util.xml.XStreamInitializer;
-import com.xizhuan.wx.cp.bean.WxCpTpXmlMessage;
-import com.xizhuan.wx.cp.bean.WxCpTpXmlPackage;
-import com.xizhuan.wx.cp.bean.WxCpXmlMessage;
-import com.xizhuan.wx.cp.bean.WxCpXmlOutImageMessage;
-import com.xizhuan.wx.cp.bean.WxCpXmlOutMessage;
-import com.xizhuan.wx.cp.bean.WxCpXmlOutNewsMessage;
-import com.xizhuan.wx.cp.bean.WxCpXmlOutTextMessage;
-import com.xizhuan.wx.cp.bean.WxCpXmlOutVideoMessage;
-import com.xizhuan.wx.cp.bean.WxCpXmlOutVoiceMessage;
 
 public class XStreamTransformer {
 

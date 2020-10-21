@@ -1,12 +1,12 @@
 package com.xizhuan.wx.common.util.http.okhttp;
 
-import lombok.extern.slf4j.Slf4j;
 import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.BaseMediaDownloadRequestExecutor;
 import com.xizhuan.wx.common.util.http.HttpResponseProxy;
 import com.xizhuan.wx.common.util.http.RequestHttp;
+import lombok.extern.slf4j.Slf4j;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

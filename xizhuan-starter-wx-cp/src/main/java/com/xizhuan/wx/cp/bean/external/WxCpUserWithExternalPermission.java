@@ -2,8 +2,8 @@ package com.xizhuan.wx.cp.bean.external;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.Data;
 
 import java.util.List;
 

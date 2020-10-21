@@ -1,9 +1,9 @@
 package com.xizhuan.wx.cp.config.impl;
 
-import lombok.NonNull;
 import com.xizhuan.wx.common.bean.WxAccessToken;
 import com.xizhuan.wx.common.redis.RedissonWxRedisOps;
 import com.xizhuan.wx.common.redis.WxRedisOps;
+import lombok.NonNull;
 import org.apache.commons.lang3.StringUtils;
 import org.redisson.api.RedissonClient;
 

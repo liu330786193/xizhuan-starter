@@ -1,9 +1,9 @@
 package com.xizhuan.wx.cp.bean.oa;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
 import com.xizhuan.wx.cp.bean.oa.templatedata.TemplateContent;
 import com.xizhuan.wx.cp.bean.oa.templatedata.TemplateTitle;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.List;

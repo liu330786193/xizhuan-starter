@@ -1,13 +1,13 @@
 package com.xizhuan.wx.common.util.http;
 
-import java.io.File;
-import java.io.IOException;
-
 import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.apache.ApacheMediaDownloadRequestExecutor;
 import com.xizhuan.wx.common.util.http.jodd.JoddHttpMediaDownloadRequestExecutor;
 import com.xizhuan.wx.common.util.http.okhttp.OkHttpMediaDownloadRequestExecutor;
+
+import java.io.File;
+import java.io.IOException;
 
 /**
  * 下载媒体文件请求执行器.

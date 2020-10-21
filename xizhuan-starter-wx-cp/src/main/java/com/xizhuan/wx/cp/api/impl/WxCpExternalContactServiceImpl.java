@@ -2,14 +2,14 @@ package com.xizhuan.wx.cp.api.impl;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxCpErrorMsgEnum;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.cp.api.WxCpExternalContactService;
 import com.xizhuan.wx.cp.api.WxCpService;
-import com.xizhuan.wx.cp.bean.*;
+import com.xizhuan.wx.cp.bean.WxCpBaseResp;
 import com.xizhuan.wx.cp.bean.external.*;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
@@ -18,28 +18,6 @@ import java.util.Date;
 import java.util.List;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.ADD_CONTACT_WAY;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.ADD_CORP_TAG;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.ADD_MSG_TEMPLATE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.CLOSE_TEMP_CHAT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.DEL_CONTACT_WAY;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.DEL_CORP_TAG;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.EDIT_CORP_TAG;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.GET_CONTACT_DETAIL;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.GET_CONTACT_WAY;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.GET_CORP_TAG_LIST;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.GET_EXTERNAL_CONTACT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.GET_FOLLOW_USER_LIST;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.GROUP_CHAT_INFO;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.GROUP_CHAT_LIST;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.LIST_EXTERNAL_CONTACT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.LIST_GROUP_CHAT_DATA;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.LIST_UNASSIGNED_CONTACT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.LIST_USER_BEHAVIOR_DATA;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.MARK_TAG;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.SEND_WELCOME_MSG;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.TRANSFER_UNASSIGNED_CONTACT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.ExternalContact.UPDATE_CONTACT_WAY;
 
 /**
  * @author 曹祖鹏 & yuanqixun

@@ -1,11 +1,11 @@
 package com.xizhuan.wx.cp.bean;
 
+import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
-import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
 
 import java.io.Serializable;
 import java.util.ArrayList;

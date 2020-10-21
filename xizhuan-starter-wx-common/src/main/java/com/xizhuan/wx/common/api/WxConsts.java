@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import static com.xizhuan.wx.common.error.WxMpErrorMsgEnum.*;
-import static com.xizhuan.wx.common.error.WxMpErrorMsgEnum.CODE_40001;
-import static com.xizhuan.wx.common.error.WxMpErrorMsgEnum.CODE_40014;
-import static com.xizhuan.wx.common.error.WxMpErrorMsgEnum.CODE_42001;
 
 /**
  * 微信开发所使用到的常量类.

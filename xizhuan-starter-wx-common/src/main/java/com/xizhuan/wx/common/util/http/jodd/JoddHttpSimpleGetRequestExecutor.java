@@ -1,14 +1,14 @@
 package com.xizhuan.wx.common.util.http.jodd;
 
+import com.xizhuan.wx.common.enums.WxType;
+import com.xizhuan.wx.common.error.WxErrorException;
+import com.xizhuan.wx.common.util.http.RequestHttp;
+import com.xizhuan.wx.common.util.http.SimpleGetRequestExecutor;
 import jodd.http.HttpConnectionProvider;
 import jodd.http.HttpRequest;
 import jodd.http.HttpResponse;
 import jodd.http.ProxyInfo;
 import jodd.util.StringPool;
-import com.xizhuan.wx.common.enums.WxType;
-import com.xizhuan.wx.common.error.WxErrorException;
-import com.xizhuan.wx.common.util.http.RequestHttp;
-import com.xizhuan.wx.common.util.http.SimpleGetRequestExecutor;
 
 import java.io.IOException;
 

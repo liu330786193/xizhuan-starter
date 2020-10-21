@@ -1,15 +1,14 @@
 package com.xizhuan.wx.cp.bean;
 
+import com.google.common.base.Splitter;
+import com.google.gson.annotations.SerializedName;
+import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.Data;
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.Serializable;
 import java.util.Collections;
 import java.util.List;
-
-import org.apache.commons.lang3.StringUtils;
-
-import com.google.common.base.Splitter;
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
 
 /**
  * 为标签添加或移除用户结果对象类.

@@ -1,10 +1,10 @@
 package com.xizhuan.wx.common.util.http.okhttp;
 
-import lombok.extern.slf4j.Slf4j;
 import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.RequestHttp;
 import com.xizhuan.wx.common.util.http.SimplePostRequestExecutor;
+import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 
 import java.io.IOException;

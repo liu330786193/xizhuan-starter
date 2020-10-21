@@ -1,15 +1,5 @@
 package com.xizhuan.wx.cp.message;
 
-import java.util.*;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-
-import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.xizhuan.wx.common.api.WxErrorExceptionHandler;
 import com.xizhuan.wx.common.api.WxMessageDuplicateChecker;
 import com.xizhuan.wx.common.api.WxMessageInMemoryDuplicateChecker;
@@ -20,6 +10,18 @@ import com.xizhuan.wx.common.util.LogExceptionHandler;
 import com.xizhuan.wx.cp.api.WxCpService;
 import com.xizhuan.wx.cp.bean.WxCpXmlMessage;
 import com.xizhuan.wx.cp.bean.WxCpXmlOutMessage;
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * <pre>

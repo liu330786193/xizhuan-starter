@@ -2,10 +2,10 @@ package com.xizhuan.wx.cp.bean;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
 import com.xizhuan.wx.common.api.WxConsts;
 import com.xizhuan.wx.common.util.xml.XStreamCDataConverter;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @XStreamAlias("xml")
 @Data

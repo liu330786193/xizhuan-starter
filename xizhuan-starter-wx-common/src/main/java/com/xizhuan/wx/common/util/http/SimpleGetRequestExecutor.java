@@ -1,13 +1,13 @@
 package com.xizhuan.wx.common.util.http;
 
-import java.io.IOException;
-
 import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.apache.ApacheSimpleGetRequestExecutor;
 import com.xizhuan.wx.common.util.http.jodd.JoddHttpSimpleGetRequestExecutor;
 import com.xizhuan.wx.common.util.http.okhttp.OkHttpSimpleGetRequestExecutor;
+
+import java.io.IOException;
 
 /**
  * 简单的GET请求执行器.

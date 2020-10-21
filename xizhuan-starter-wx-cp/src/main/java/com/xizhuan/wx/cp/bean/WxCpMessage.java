@@ -2,12 +2,12 @@ package com.xizhuan.wx.cp.bean;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import lombok.Data;
 import com.xizhuan.wx.common.api.WxConsts.KefuMsgType;
 import com.xizhuan.wx.cp.bean.article.MpnewsArticle;
 import com.xizhuan.wx.cp.bean.article.NewArticle;
 import com.xizhuan.wx.cp.bean.messagebuilder.*;
 import com.xizhuan.wx.cp.bean.taskcard.TaskCardButton;
+import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;
@@ -16,17 +16,6 @@ import java.util.List;
 import java.util.Map;
 
 import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.*;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.FILE;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.IMAGE;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.MARKDOWN;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.MINIPROGRAM_NOTICE;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.MPNEWS;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.NEWS;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.TASKCARD;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.TEXT;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.TEXTCARD;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.VIDEO;
-import static com.xizhuan.wx.common.api.WxConsts.KefuMsgType.VOICE;
 
 /**
  * 消息.

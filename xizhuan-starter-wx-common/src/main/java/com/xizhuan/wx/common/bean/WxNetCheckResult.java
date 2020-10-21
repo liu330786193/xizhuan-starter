@@ -1,7 +1,7 @@
 package com.xizhuan.wx.common.bean;
 
-import lombok.Data;
 import com.xizhuan.wx.common.util.json.WxGsonBuilder;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.ArrayList;

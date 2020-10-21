@@ -1,8 +1,8 @@
 package com.xizhuan.wx.common.util.http;
 
-import jodd.http.HttpResponse;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
+import jodd.http.HttpResponse;
 import okhttp3.Response;
 import org.apache.http.Header;
 import org.apache.http.client.methods.CloseableHttpResponse;

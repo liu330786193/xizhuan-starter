@@ -1,10 +1,10 @@
 package com.xizhuan.wx.common.bean.menu;
 
-import java.io.Serializable;
-
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
 import com.xizhuan.wx.common.util.json.WxGsonBuilder;
+import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * menu rule.

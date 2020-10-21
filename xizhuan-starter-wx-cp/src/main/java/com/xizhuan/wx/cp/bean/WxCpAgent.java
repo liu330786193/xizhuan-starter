@@ -1,14 +1,14 @@
 package com.xizhuan.wx.cp.bean;
 
-import java.io.Serializable;
-import java.util.List;
-
 import com.google.gson.annotations.SerializedName;
+import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+
+import java.io.Serializable;
+import java.util.List;
 
 /**
  * <pre>

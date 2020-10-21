@@ -1,14 +1,10 @@
 package com.xizhuan.wx.common.session;
 
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import com.xizhuan.wx.common.util.res.StringManager;
+
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import com.xizhuan.wx.common.util.res.StringManager;
 
 /**
  * @author Daniel Qian

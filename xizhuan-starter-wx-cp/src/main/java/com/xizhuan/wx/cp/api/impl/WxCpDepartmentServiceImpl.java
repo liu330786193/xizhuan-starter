@@ -2,7 +2,6 @@ package com.xizhuan.wx.cp.api.impl;
 
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.json.GsonHelper;
 import com.xizhuan.wx.common.util.json.GsonParser;
@@ -10,14 +9,11 @@ import com.xizhuan.wx.cp.api.WxCpDepartmentService;
 import com.xizhuan.wx.cp.api.WxCpService;
 import com.xizhuan.wx.cp.bean.WxCpDepart;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Department.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Department.DEPARTMENT_CREATE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Department.DEPARTMENT_DELETE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Department.DEPARTMENT_LIST;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Department.DEPARTMENT_UPDATE;
 
 /**
  * <pre>

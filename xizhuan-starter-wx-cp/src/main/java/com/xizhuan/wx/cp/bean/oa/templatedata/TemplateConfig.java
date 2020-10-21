@@ -1,8 +1,8 @@
 package com.xizhuan.wx.cp.bean.oa.templatedata;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
 import com.xizhuan.wx.cp.bean.oa.templatedata.control.*;
+import lombok.Data;
 
 import java.io.Serializable;
 

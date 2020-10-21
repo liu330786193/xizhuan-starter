@@ -1,8 +1,8 @@
 package com.xizhuan.wx.common.bean.ocr;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
 import com.xizhuan.wx.common.util.json.WxGsonBuilder;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.List;

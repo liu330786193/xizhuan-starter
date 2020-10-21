@@ -2,10 +2,8 @@ package com.xizhuan.wx.cp.api.impl;
 
 import com.google.common.base.Joiner;
 import com.google.gson.JsonObject;
-import lombok.SneakyThrows;
-import lombok.extern.slf4j.Slf4j;
-import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.bean.WxAccessToken;
+import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxCpErrorMsgEnum;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
@@ -19,6 +17,8 @@ import com.xizhuan.wx.common.util.json.GsonParser;
 import com.xizhuan.wx.cp.api.WxCpTpService;
 import com.xizhuan.wx.cp.bean.*;
 import com.xizhuan.wx.cp.config.WxCpTpConfigStorage;
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
@@ -28,11 +28,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tp.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tp.GET_AUTH_INFO;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tp.GET_CORP_TOKEN;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tp.GET_PERMANENT_CODE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tp.GET_PREAUTH_CODE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.Tp.JSCODE_TO_SESSION;
 
 /**
  * .

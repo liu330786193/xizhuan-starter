@@ -1,17 +1,17 @@
 package com.xizhuan.wx.cp.api.impl;
 
-import jodd.http.HttpConnectionProvider;
-import jodd.http.HttpRequest;
-import jodd.http.HttpResponse;
-import jodd.http.ProxyInfo;
-import jodd.http.net.SocketHttpConnectionProvider;
-import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.bean.WxAccessToken;
+import com.xizhuan.wx.common.enums.WxType;
 import com.xizhuan.wx.common.error.WxError;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.HttpType;
 import com.xizhuan.wx.cp.config.WxCpConfigStorage;
 import com.xizhuan.wx.cp.constant.WxCpApiPathConsts;
+import jodd.http.HttpConnectionProvider;
+import jodd.http.HttpRequest;
+import jodd.http.HttpResponse;
+import jodd.http.ProxyInfo;
+import jodd.http.net.SocketHttpConnectionProvider;
 
 /**
  * @author someone

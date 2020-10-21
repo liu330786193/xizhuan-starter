@@ -1,7 +1,7 @@
 package com.xizhuan.wx.cp.bean.messagebuilder;
 
-import com.xizhuan.wx.cp.bean.WxCpMessage;
 import com.xizhuan.wx.common.api.WxConsts;
+import com.xizhuan.wx.cp.bean.WxCpMessage;
 
 /**
  * <pre>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>xizhuan-starter</artifactId>
+		<groupId>com.xizhuan</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.xizhuan</groupId>
+	<artifactId>web</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>web</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.xizhuan</groupId>
+			<artifactId>xiaomai-starter-wx-chatbot</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xizhuan</groupId>
+			<artifactId>xizhuan-starter-wx-cp</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xizhuan</groupId>
+			<artifactId>xizhuan-starter-prevent-duplicate-form</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>D:/XiZhuan/xizhuan-starter/xizhuan-starter-web/src/main/resources</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+					<include>**/*.tld</include>
+					<include>**/*.xls</include>
+					<include>**/*.xlsx</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
+</project>

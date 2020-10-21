@@ -1,14 +1,14 @@
 package com.xizhuan.wx.common.bean.menu;
 
+import com.xizhuan.wx.common.util.json.WxGsonBuilder;
+import lombok.Data;
+
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Serializable;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
-
-import lombok.Data;
-import com.xizhuan.wx.common.util.json.WxGsonBuilder;
 
 /**
  * 菜单（公众号和企业号共用的）.

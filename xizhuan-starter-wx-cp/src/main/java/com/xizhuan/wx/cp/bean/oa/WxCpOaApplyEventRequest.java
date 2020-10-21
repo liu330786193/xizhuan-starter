@@ -1,10 +1,10 @@
 package com.xizhuan.wx.cp.bean.oa;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-import lombok.experimental.Accessors;
 import com.xizhuan.wx.cp.bean.oa.applydata.ApplyDataContent;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.Data;
+import lombok.experimental.Accessors;
 
 import java.io.Serializable;
 import java.util.List;

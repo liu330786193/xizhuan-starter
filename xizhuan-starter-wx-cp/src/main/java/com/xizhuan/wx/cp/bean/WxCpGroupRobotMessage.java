@@ -2,11 +2,11 @@ package com.xizhuan.wx.cp.bean;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import com.xizhuan.wx.cp.bean.article.NewArticle;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
-import com.xizhuan.wx.cp.bean.article.NewArticle;
 
 import java.util.List;
 

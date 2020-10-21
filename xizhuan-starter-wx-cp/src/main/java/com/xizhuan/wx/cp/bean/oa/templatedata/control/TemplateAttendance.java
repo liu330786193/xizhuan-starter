@@ -1,8 +1,8 @@
 package com.xizhuan.wx.cp.bean.oa.templatedata.control;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
 import com.xizhuan.wx.cp.bean.oa.templatedata.TemplateDateRange;
+import lombok.Data;
 
 import java.io.Serializable;
 

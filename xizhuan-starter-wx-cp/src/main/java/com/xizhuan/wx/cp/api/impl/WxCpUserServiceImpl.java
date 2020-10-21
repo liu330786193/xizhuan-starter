@@ -1,9 +1,10 @@
 package com.xizhuan.wx.cp.api.impl;
 
 import com.google.common.collect.Maps;
-import com.google.gson.*;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonPrimitive;
 import com.google.gson.reflect.TypeToken;
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.json.GsonParser;
 import com.xizhuan.wx.cp.api.WxCpService;
@@ -12,24 +13,12 @@ import com.xizhuan.wx.cp.bean.WxCpInviteResult;
 import com.xizhuan.wx.cp.bean.WxCpUser;
 import com.xizhuan.wx.cp.bean.external.WxCpUserExternalContactInfo;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 import java.util.Map;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.BATCH_INVITE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.GET_EXTERNAL_CONTACT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.GET_USER_ID;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_AUTHENTICATE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_BATCH_DELETE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_CONVERT_TO_OPENID;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_CONVERT_TO_USERID;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_CREATE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_DELETE;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_GET;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_LIST;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_SIMPLE_LIST;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.User.USER_UPDATE;
 
 /**
  * <pre>

@@ -3,7 +3,6 @@ package com.xizhuan.wx.cp.api.impl;
 import com.google.common.base.Joiner;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import lombok.extern.slf4j.Slf4j;
 import com.xizhuan.wx.common.api.WxConsts;
 import com.xizhuan.wx.common.bean.WxJsapiSignature;
 import com.xizhuan.wx.common.enums.WxType;
@@ -26,6 +25,7 @@ import com.xizhuan.wx.cp.bean.WxCpMessage;
 import com.xizhuan.wx.cp.bean.WxCpMessageSendResult;
 import com.xizhuan.wx.cp.bean.WxCpProviderToken;
 import com.xizhuan.wx.cp.config.WxCpConfigStorage;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,14 +33,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.BATCH_GET_RESULT;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.BATCH_REPLACE_PARTY;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.BATCH_REPLACE_USER;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.GET_AGENT_CONFIG_TICKET;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.GET_CALLBACK_IP;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.GET_JSAPI_TICKET;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.JSCODE_TO_SESSION;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.MESSAGE_SEND;
 
 /**
  * .

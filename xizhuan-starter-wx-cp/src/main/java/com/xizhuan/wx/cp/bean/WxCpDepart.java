@@ -1,9 +1,9 @@
 package com.xizhuan.wx.cp.bean;
 
-import java.io.Serializable;
-
-import lombok.Data;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * 企业微信的部门.

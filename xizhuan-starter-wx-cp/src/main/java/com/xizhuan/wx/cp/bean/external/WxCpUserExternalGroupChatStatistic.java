@@ -1,10 +1,10 @@
 package com.xizhuan.wx.cp.bean.external;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Getter;
-import lombok.Setter;
 import com.xizhuan.wx.cp.bean.WxCpBaseResp;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.List;

@@ -1,19 +1,15 @@
 package com.xizhuan.wx.cp.bean;
 
-import java.io.Serializable;
-
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import lombok.Data;
-import com.xizhuan.wx.cp.bean.outxmlbuilder.ImageBuilder;
-import com.xizhuan.wx.cp.bean.outxmlbuilder.NewsBuilder;
-import com.xizhuan.wx.cp.bean.outxmlbuilder.TextBuilder;
-import com.xizhuan.wx.cp.bean.outxmlbuilder.VideoBuilder;
-import com.xizhuan.wx.cp.bean.outxmlbuilder.VoiceBuilder;
+import com.xizhuan.wx.common.util.xml.XStreamCDataConverter;
+import com.xizhuan.wx.cp.bean.outxmlbuilder.*;
 import com.xizhuan.wx.cp.config.WxCpConfigStorage;
 import com.xizhuan.wx.cp.util.crypto.WxCpCryptUtil;
 import com.xizhuan.wx.cp.util.xml.XStreamTransformer;
-import com.xizhuan.wx.common.util.xml.XStreamCDataConverter;
+import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * 被动回复消息.

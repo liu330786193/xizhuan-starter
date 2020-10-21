@@ -1,7 +1,6 @@
 package com.xizhuan.wx.cp.api.impl;
 
 import com.google.gson.JsonObject;
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.error.WxErrorException;
 import com.xizhuan.wx.common.util.http.URIUtil;
 import com.xizhuan.wx.common.util.json.GsonHelper;
@@ -11,15 +10,10 @@ import com.xizhuan.wx.cp.api.WxCpService;
 import com.xizhuan.wx.cp.bean.WxCpOauth2UserInfo;
 import com.xizhuan.wx.cp.bean.WxCpUserDetail;
 import com.xizhuan.wx.cp.util.json.WxCpGsonBuilder;
+import lombok.RequiredArgsConstructor;
 
 import static com.xizhuan.wx.common.api.WxConsts.OAuth2Scope.*;
-import static com.xizhuan.wx.common.api.WxConsts.OAuth2Scope.SNSAPI_BASE;
-import static com.xizhuan.wx.common.api.WxConsts.OAuth2Scope.SNSAPI_PRIVATEINFO;
-import static com.xizhuan.wx.common.api.WxConsts.OAuth2Scope.SNSAPI_USERINFO;
 import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.OAuth2.*;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.OAuth2.GET_USER_DETAIL;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.OAuth2.GET_USER_INFO;
-import static com.xizhuan.wx.cp.constant.WxCpApiPathConsts.OAuth2.URL_OAUTH2_AUTHORIZE;
 
 /**
  * <pre>

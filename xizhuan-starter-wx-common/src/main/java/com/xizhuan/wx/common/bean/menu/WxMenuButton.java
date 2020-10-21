@@ -1,12 +1,12 @@
 package com.xizhuan.wx.common.bean.menu;
 
+import com.google.gson.annotations.SerializedName;
+import com.xizhuan.wx.common.util.json.WxGsonBuilder;
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-import com.xizhuan.wx.common.util.json.WxGsonBuilder;
 
 /**
  * menu button.

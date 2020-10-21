@@ -1,0 +1,8 @@
+spring:
+  redis:
+    database: 5
+    host: 106.54.226.121
+    port: 6379
+    password: meirenji123456
+server:
+  port: 8888

@@ -3,7 +3,6 @@ package com.xizhuan.wx.cp.bean.oa;
 import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 import lombok.experimental.Accessors;
-import com.xizhuan.wx.cp.bean.oa.WxCpOaApplyEventRequest;
 
 import java.io.Serializable;
 import java.util.List;

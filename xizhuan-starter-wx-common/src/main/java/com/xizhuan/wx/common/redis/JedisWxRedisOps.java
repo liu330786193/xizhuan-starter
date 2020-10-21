@@ -1,9 +1,9 @@
 package com.xizhuan.wx.common.redis;
 
-import lombok.RequiredArgsConstructor;
 import com.xizhuan.wx.common.util.locks.JedisDistributedLock;
+import lombok.RequiredArgsConstructor;
+import org.springframework.data.redis.connection.Pool;
 import redis.clients.jedis.Jedis;
-import redis.clients.jedis.util.Pool;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;

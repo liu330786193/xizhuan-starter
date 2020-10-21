@@ -1,12 +1,7 @@
 package com.xizhuan.wx.common.api;
 
+import com.xizhuan.wx.common.bean.ocr.*;
 import com.xizhuan.wx.common.error.WxErrorException;
-import com.xizhuan.wx.common.bean.ocr.WxOcrBankCardResult;
-import com.xizhuan.wx.common.bean.ocr.WxOcrBizLicenseResult;
-import com.xizhuan.wx.common.bean.ocr.WxOcrCommResult;
-import com.xizhuan.wx.common.bean.ocr.WxOcrDrivingLicenseResult;
-import com.xizhuan.wx.common.bean.ocr.WxOcrDrivingResult;
-import com.xizhuan.wx.common.bean.ocr.WxOcrIdCardResult;
 
 import java.io.File;
 
