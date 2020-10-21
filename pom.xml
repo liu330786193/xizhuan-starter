@@ -141,16 +141,16 @@
     </dependencyManagement>
 
     <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Release</name>
-            <url>http://106.54.226.121:9002/repository/maven-releases/</url>
-        </repository>
         <snapshotRepository>
-            <id>snapshots</id>
-            <name>Snapshot</name>
-            <url>http://106.54.226.121:9002/repository/maven-snapshots/</url>
+            <id>releases</id>
+            <name>Nexus releases</name>
+            <url>http://106.54.226.121:9002/repository/xizhuan-snapshots/</url>
         </snapshotRepository>
+        <site>
+            <id>snapshots</id>
+            <name>Nexus snapshots</name>
+            <url>http://106.54.226.121:9002/repository/xizhuan-snapshots/</url>
+        </site>
     </distributionManagement>
 
     <build>
