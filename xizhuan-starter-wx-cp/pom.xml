@@ -15,11 +15,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!--<dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>weixin-java-common</artifactId>
-            <version>3.9.0</version>
-        </dependency>-->
         <dependency>
             <groupId>com.xizhuan</groupId>
             <artifactId>xizhuan-starter-wx-common</artifactId>
